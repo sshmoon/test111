@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+</head>
+<body>
+    <h1>Upload a File</h1>
+    <form id="uploadForm" enctype="multipart/form-data" action="/receive/generate" method="POST">
+        <input type="file" id="fileInput" name="file" accept=".txt,.pdf,.doc,.docx,.png,.jpg,.jpeg">
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
